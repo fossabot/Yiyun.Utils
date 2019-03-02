@@ -41,16 +41,21 @@
     <DocumentationFile>bin\Release\netstandard2.0\Allis.PHP.xml</DocumentationFile>
   </PropertyGroup>
 
-  <ItemGroup>
-  </ItemGroup>
-
   <ItemGroup Condition="'$(TargetFramework)' == 'net40'">
+    <Reference Include="System.Web" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
+    <Reference Include="System.Web" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities">
+      <Version>2.2.0</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
   </ItemGroup>
 
   <PropertyGroup Condition="'$(TargetFramework)' == 'net40'">
@@ -59,6 +64,10 @@
 
   <PropertyGroup Condition="'$(TargetFramework)' == 'net45'">
     <DefineConstants>NETFULL45</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <DefineConstants>NETSTANDARD20</DefineConstants>
   </PropertyGroup>
 
 </Project>
