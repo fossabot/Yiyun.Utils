@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{929BCFFE-E9E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allis.PHP", "src\Allis.PHP\Allis.PHP.csproj", "{2A950916-4E89-4CCB-B28C-6E5F7B01BC14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allis.Web.Layui", "src\Allis.Web.Layui\Allis.Web.Layui.csproj", "{C94104C0-4D22-4E90-A014-3E81125F8581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allis.Web.Layui", "src\Allis.Web.Layui\Allis.Web.Layui.csproj", "{C94104C0-4D22-4E90-A014-3E81125F8581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allis.Net.HTTP", "src\Allis.Net.HTTP\Allis.Net.HTTP.csproj", "{21598930-AF6F-4E7D-B001-D3633E773F19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{C94104C0-4D22-4E90-A014-3E81125F8581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C94104C0-4D22-4E90-A014-3E81125F8581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C94104C0-4D22-4E90-A014-3E81125F8581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21598930-AF6F-4E7D-B001-D3633E773F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21598930-AF6F-4E7D-B001-D3633E773F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21598930-AF6F-4E7D-B001-D3633E773F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21598930-AF6F-4E7D-B001-D3633E773F19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2A950916-4E89-4CCB-B28C-6E5F7B01BC14} = {929BCFFE-E9EE-4EBD-964B-44BFDDF89091}
 		{C94104C0-4D22-4E90-A014-3E81125F8581} = {929BCFFE-E9EE-4EBD-964B-44BFDDF89091}
+		{21598930-AF6F-4E7D-B001-D3633E773F19} = {929BCFFE-E9EE-4EBD-964B-44BFDDF89091}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45CFC2F4-3451-4CD7-A1DC-2BD95C418B91}
