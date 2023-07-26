@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Allis.PHP
+namespace Yiyun.Utils.PHP
 {
     public partial class PHP
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Allis.Web.Layui
+namespace Yiyun.Utils.Web.Layui
 {
     #region 按钮主题
     /// <summary>

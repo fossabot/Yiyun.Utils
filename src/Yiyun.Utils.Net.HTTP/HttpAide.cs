@@ -7,7 +7,7 @@ using System.Net;
 using System.IO.Compression;
 using System.IO;
 
-namespace Allis.Net.HTTP
+namespace Yiyun.Utils.Net.HTTP
 {
     /// <summary>
     /// HTTP助手

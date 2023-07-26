@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{929BCFFE-E9EE-4EBD-964B-44BFDDF89091}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allis.PHP", "src\Allis.PHP\Allis.PHP.csproj", "{2A950916-4E89-4CCB-B28C-6E5F7B01BC14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yiyun.Utils.PHP", "src\Yiyun.Utils.PHP\Yiyun.Utils.PHP.csproj", "{2A950916-4E89-4CCB-B28C-6E5F7B01BC14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allis.Web.Layui", "src\Allis.Web.Layui\Allis.Web.Layui.csproj", "{C94104C0-4D22-4E90-A014-3E81125F8581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yiyun.Utils.Web.Layui", "src\Yiyun.Utils.Web.Layui\Yiyun.Utils.Web.Layui.csproj", "{C94104C0-4D22-4E90-A014-3E81125F8581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allis.Net.HTTP", "src\Allis.Net.HTTP\Allis.Net.HTTP.csproj", "{21598930-AF6F-4E7D-B001-D3633E773F19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yiyun.Utils.Net.HTTP", "src\Yiyun.Utils.Net.HTTP\Yiyun.Utils.Net.HTTP.csproj", "{21598930-AF6F-4E7D-B001-D3633E773F19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
