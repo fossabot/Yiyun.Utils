@@ -19,6 +19,7 @@
 		<!-- 程序集的文件版本 -->
 		<FileVersion>0.1.0.0</FileVersion>
 		<Description></Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<Copyright>Copyright (c) 2019-present yiyun</Copyright>
 		<PackageLicenseUrl>https://github.com/yiyungent/Yiyun.Utils/blob/master/LICENSE</PackageLicenseUrl>
 		<PackageProjectUrl>https://yiyungent.github.io/Yiyun.Utils</PackageProjectUrl>
@@ -30,6 +31,12 @@
 		<PackageReleaseNotes>
 		</PackageReleaseNotes>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<!--
+		https://devblogs.microsoft.com/nuget/add-a-readme-to-your-nuget-package/#add-a-readme-in-your-project-file-recommended -->
+		<None Include="../../README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 	<PropertyGroup
 		Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net40|AnyCPU'">

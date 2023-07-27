@@ -5,7 +5,8 @@
 		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
 		<!--<TargetFramework>net40</TargetFramework>-->
 		<!--<TargetFramework>netcoreapp2.0</TargetFramework>-->
-		<!-- 注意:当使用单元测试时，必须明确目标框架,参考 https://github.com/nunit/docs/wiki/.NET-Core-and-.NET-Standard#why-cant-my-tests-target-net-standard -->
+		<!-- 注意:当使用单元测试时，必须明确目标框架,参考
+		https://github.com/nunit/docs/wiki/.NET-Core-and-.NET-Standard#why-cant-my-tests-target-net-standard -->
 
 		<PackageId>Yiyun.Utils.Net.HTTP</PackageId>
 		<Authors>yiyun</Authors>
@@ -18,6 +19,7 @@
 		<!-- 程序集的文件版本 -->
 		<FileVersion>0.1.0.0</FileVersion>
 		<Description></Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<Copyright>Copyright (c) 2019-present yiyun</Copyright>
 		<PackageLicenseUrl>https://github.com/yiyungent/Yiyun.Utils/blob/master/LICENSE</PackageLicenseUrl>
 		<PackageProjectUrl>https://yiyungent.github.io/Yiyun.Utils</PackageProjectUrl>
@@ -30,19 +32,29 @@
 		</PackageReleaseNotes>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net40|AnyCPU'">
+	<ItemGroup>
+		<!--
+		https://devblogs.microsoft.com/nuget/add-a-readme-to-your-nuget-package/#add-a-readme-in-your-project-file-recommended -->
+		<None Include="../../README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<PropertyGroup
+		Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net40|AnyCPU'">
 		<DocumentationFile>bin\Release\net40\Yiyun.Utils.Net.HTTP.xml</DocumentationFile>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+	<PropertyGroup
+		Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
 		<DocumentationFile>bin\Release\net45\Yiyun.Utils.Net.HTTP.xml</DocumentationFile>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+	<PropertyGroup
+		Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
 		<DocumentationFile>bin\Release\netstandard2.0\Yiyun.Utils.Net.HTTP.xml</DocumentationFile>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
+	<PropertyGroup
+		Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
 		<DocumentationFile>bin\Release\net6.0\Yiyun.Utils.Net.HTTP.xml</DocumentationFile>
 	</PropertyGroup>
 
