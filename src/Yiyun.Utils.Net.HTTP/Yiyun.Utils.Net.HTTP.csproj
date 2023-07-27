@@ -18,7 +18,7 @@
 		<!-- 程序集的文件版本 -->
 		<FileVersion>0.1.0.0</FileVersion>
 		<Description></Description>
-		<Copyright>Copyright (c) 2019 yiyun</Copyright>
+		<Copyright>Copyright (c) 2019-present yiyun</Copyright>
 		<PackageLicenseUrl>https://github.com/yiyungent/Yiyun.Utils/blob/master/LICENSE</PackageLicenseUrl>
 		<PackageProjectUrl>https://yiyungent.github.io/Yiyun.Utils</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/yiyungent/Yiyun.Utils</RepositoryUrl>
